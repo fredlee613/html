@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="login.php">
+        <label for="inputId">아이디 
+            <input id="inputId" type="text" value="아이디를 입력해주세요." name="id" >
+        </label>
+        <!-- CSS 적용상의 문제로 아래 방식이 더 선호된다. -->
+        <label for="inputPassword">비밀번호</label>
+        <input id="inputPassword" type="text" value="비밀번호를 입력해주세요." name="password">
+        <input type="submit" value="로그인">
+    </form>
+</body>
+</html>
